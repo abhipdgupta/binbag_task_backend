@@ -21,9 +21,6 @@
 
 ```
 
-## Authentication method used is Cookie
-
-
 # Initialize
 
 ```
@@ -44,3 +41,8 @@ JWT_SECRET=<your jwt secret>
 # Api Documentation
 ### <your_backend_url>/docs
 ### eg:  http://localhost:8000/docs
+
+
+## Authentication method used is Cookie
+### For api documentation swagger docs has been used . after using /user/login route you should not set up cookie in the swagger-ui using the pad lock , it is automatically been set in the header and is used in the subsequent request.
+### due to browser security measure it doesnot allow to change cookie header.
